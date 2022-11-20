@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    
+    .containerRelogio {
+        width: 90%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.781) !important;
+    }
+    .containerRelogio div p {
+        font-size: 50px !important;
+    }
+    .separadores{
+        margin-top: -10px;
+        font-size: 50px !important;
+    }
+    .title {
+        font-size: calc(2em + 1vw);
+    }
+}
