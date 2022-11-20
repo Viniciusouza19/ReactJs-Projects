@@ -1,0 +1,15 @@
+.card img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0;
+}
+.controler{
+    position: relative;
+    top: 50px;
+}

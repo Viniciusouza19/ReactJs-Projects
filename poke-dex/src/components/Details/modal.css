@@ -1,0 +1,31 @@
+
+.card img{
+    display: flex;
+}
+.statsFixed{
+    display: flex;
+    width: 100%;
+    justify-content: space-between !important;
+}
+.stats{
+    display: flex;
+    width: 100% !important;
+    border: 1px solid #c2bfbf;
+    border-radius: 5px;
+    justify-content: space-between !important;
+}
+.hp, .attack, .defense, .specialAttack, .specialDefense, .speed{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px;
+}
+.hp p, .attack p, .defense p, .specialAttack p, .specialDefense p, .speed p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.shiny{
+    display:none !important;
+}
